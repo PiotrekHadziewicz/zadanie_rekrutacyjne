@@ -1,0 +1,47 @@
+body {
+  background-color: #2a2c31;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 36px;
+  height: 36px;
+  filter: invert(99%) sepia(62%) saturate(2%) hue-rotate(257deg) brightness(122%)
+    contrast(100%);
+}
+h1 {
+  color: whitesmoke;
+}
+.reset {
+  cursor: pointer;
+}
+.border {
+  background-color: whitesmoke !important;
+}
+.border-info {
+  border-color: #41afc5 !important;
+}
+
+p {
+  max-width: 480px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tier {
+  width: 480px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .tier {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: lightgray;
+}
+.container{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

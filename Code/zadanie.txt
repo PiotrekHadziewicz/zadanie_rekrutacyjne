@@ -1,0 +1,21 @@
+
+(plik license.txt nie jest częścią zadania jest wymagany ze względów prawnych)
+
+Kod należy umieścić odpowiednio do zadania w folderach 1 lub 2.
+
+1:
+    API (https://dummyjson.com)
+    Stwórz program do komunikacji oraz wyświetlania danych z API:
+        POST - /products/add
+        GET - /products
+        PUT - /products/1
+        DELETE - /products/1 
+
+2: 
+    (Jeżeli nie umiesz połączyć się z API możesz wykorzystać dane znajdujące się w pliku countries.js)
+    Dokumentacja API (https://restcountries.com/#api-endpoints-v3-all)
+    API (https://restcountries.com/v3.1/all)
+ 
+    Pobierz wszystkie państwa z API (lub pliku) i wygeneruj dla każdego z nich "kartę" o wymiarach 280px na 390px.
+    Następnie karty ułóż obok siebie w wiersze po 2 karty. Design znajdziesz w pliku countries-design.PNG. 
+    Po kliknięciu w kartę w consoli powinny pojawić się wszystkie dane wybranego kraju.
